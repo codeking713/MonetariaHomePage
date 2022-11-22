@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className='home pb-5'>
             <div className='home__hero mt-0 d-flex align-items-end'>
-                <div className='home__hero__inner d-flex flex-column justify-content-end py-5 gap-3 mt-0 home-container '>
+                <div className='home__hero__inner d-flex flex-column justify-content-end py-5 gap-3 mt-0 home-container'>
                     <div className='home__hero__heading d-flex flex-column gap-3'>
                         <h1 className='text-light fw-normal fs-1'>
                             Monetaria <b>liquidity</b><br/> <b>protocol</b> for altcoins
