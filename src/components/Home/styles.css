@@ -48,9 +48,28 @@
 .circle-filler {
     position: absolute;
     width: 697px;
-height: 719px;
-left: 20%;
-background: #157EFF;
-opacity: 0.2;
-filter: blur(150px);
+    height: 719px;
+    left: 20%;
+    background: #157EFF;
+    opacity: 0.2;
+    filter: blur(150px);
+}
+@media (max-width: 768px) {
+    .home__hero {
+        align-items: flex-start !important;
+        padding: 5rem 1rem;
+    }
+    .home__hero h1 {
+        font-size: 3.5rem !important;
+    }
+    .home__hero p {
+        font-size: 1.25rem !important;
+    }
+    .home__chains {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+    .home__list__container {
+        flex-direction: column;
+    }
 }

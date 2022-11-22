@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className='home pb-5'>
             <div className='home__hero mt-0 d-flex align-items-end'>
-                <div className='home__hero__inner d-flex flex-column justify-content-end py-5 gap-3 mt-0 home-container '>
+                <div className='home__hero__inner d-flex flex-column justify-content-end py-5 gap-3 mt-0 home-container'>
                     <div className='home__hero__heading d-flex flex-column gap-3'>
                         <h1 className='text-light fw-normal fs-1'>
                             Monetaria <b>liquidity</b><br/> <b>protocol</b> for altcoins
@@ -31,7 +31,7 @@ const Home = () => {
                     <a className='link' href='/'>Explore All ↗</a>
                 </div>
                 <div className='home__chains__image flex-1'>
-                    <img src='/chains.png' alt='Chains'/>
+                    <img src='/chains.png' alt='Chains' style={{background: 'url(/grass.png)', backgroundSize: 'cover'}}/>
                 </div>
             </div>
             <div className='home__list home-container gap-5 my-5'>

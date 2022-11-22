@@ -20,3 +20,49 @@
     background-color: transparent !important;
     color: white !important;
 }
+.header__dropdown {
+    display: none !important;
+}
+@media (max-width: 768px) {
+    .header {
+        z-index: 1;
+        position: relative;
+        gap: 0.5rem !important;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .header__dropdown {
+        cursor: pointer;
+        display: block !important;
+    }
+    .header__links {
+        position: absolute;
+        top: -300px;
+        background-color: rgb(2, 25, 36);
+        flex-direction: column !important;
+        gap: 1.5rem !important;
+        width: 100vw;
+        left: 0px;
+        align-items: center !important;
+        padding: 1.5rem 0px !important;
+        transition: 0.5s top linear;
+        z-index: -1;
+    }
+    .header__button input {
+        font-size: 0.75rem !important;
+        width: 80px;
+        padding: 0.25rem !important;
+    }
+    .header__links a {
+        border: 0px;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .header__links-show-dropdown {
+        top: 82px;
+    }
+    .header > * {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+}
