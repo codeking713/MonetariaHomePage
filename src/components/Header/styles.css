@@ -1,0 +1,22 @@
+.header {
+    height: 82px;
+    background-color: rgb(2, 25, 36);
+}
+.header__links a {
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+.header__links a:last-child {
+    border: 0px;
+}
+.header__links a:hover {
+    text-decoration: underline !important;
+}
+.header__button input {
+    border-radius: 8px !important;
+    border: 2px solid white;
+    transition: 0.1s all linear;
+}
+.header__button input:hover {
+    background-color: transparent !important;
+    color: white !important;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Urbanist', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home-container {
+    width: min(1300px, 95%);
+    margin-left: auto;
+    margin-right: auto;
+}
+.link {
+    color: white !important;
+    background: rgba(255, 255, 255, 0.16) !important;
+    backdrop-filter: blur(15px) !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    padding: 0.5rem 0.75rem;
+}
+.link:hover {
+    text-decoration: underline !important;
+}
