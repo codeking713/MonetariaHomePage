@@ -1,8 +1,20 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import './styles.css';
 
 const Header = () => {
     const [showDropDown, setShowDropDown] = useState(false);
+
+    const closeDropDown = (event) => {
+        if(event.clientY >= 294)
+            setShowDropDown(false);
+    };
+
+    useEffect(() => {
+        window.addEventListener('click', closeDropDown);
+        return () => {
+            window.removeEventListener('click', closeDropDown);
+        };
+    }, []);
 
     return (
         <header className='header d-flex align-items-center justify-content-between p-3 gap-5'>
