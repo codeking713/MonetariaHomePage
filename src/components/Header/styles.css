@@ -48,6 +48,11 @@
         transition: 0.5s top linear;
         z-index: -1;
     }
+    .header__button input {
+        font-size: 0.75rem !important;
+        width: 80px;
+        padding: 0.25rem !important;
+    }
     .header__links a {
         border: 0px;
         padding: 0px !important;

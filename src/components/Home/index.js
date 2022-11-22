@@ -31,7 +31,7 @@ const Home = () => {
                     <a className='link' href='/'>Explore All ↗</a>
                 </div>
                 <div className='home__chains__image flex-1'>
-                    <img src='/chains.png' alt='Chains'/>
+                    <img src='/chains.png' alt='Chains' style={{background: 'url(/grass.png)', backgroundSize: 'cover'}}/>
                 </div>
             </div>
             <div className='home__list home-container gap-5 my-5'>
