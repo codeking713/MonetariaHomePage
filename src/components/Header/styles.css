@@ -35,6 +35,10 @@
         cursor: pointer;
         display: block !important;
     }
+    .header > * {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
     .header__links {
         position: absolute;
         top: -300px;
@@ -60,9 +64,5 @@
     }
     .header__links-show-dropdown {
         top: 82px;
-    }
-    .header > * {
-        padding: 0px !important;
-        margin: 0px !important;
     }
 }
