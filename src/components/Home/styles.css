@@ -10,7 +10,9 @@
     background-size: cover;
 }
 
-.home__hero__inner {}
+.home__hero__inner {
+    margin-bottom: 200px;
+}
 
 .home__chains img {
     width: 100%;
@@ -72,6 +74,10 @@
         align-items: flex-start !important;
         padding: 5rem 1rem;
         height: calc(100vh - 82px);
+    }
+
+    .home__hero__inner {
+        margin-bottom: 0;
     }
 
     .home__hero h1 {
