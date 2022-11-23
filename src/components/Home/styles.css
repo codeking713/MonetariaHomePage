@@ -3,35 +3,45 @@
 .home {
     background-color: rgb(5, 18, 20);
 }
+
 .home__hero {
     background-image: linear-gradient(180deg, rgba(5, 18, 20, 0) 0%, #051214 120%), url('../../../public/aquapolis.png');
-    height: calc(100vh - 82px);
+    height: calc(100vh + 130px);
     background-size: cover;
 }
-.home__hero__inner {
 
-}
+.home__hero__inner {}
+
 .home__chains img {
     width: 100%;
 }
-.home__chains, .home__list__container {
+
+.home__chains,
+.home__list__container {
     min-height: 400px;
     justify-content: space-between;
 }
+
 .home__chains__image img {
     background: linear-gradient(0deg, rgba(5, 18, 20, 0.42) -7%, #051214 101.47%);
     backdrop-filter: blur(50px);
 }
+
 .home__list {
     position: relative;
 }
-.home__list__container > *, .home__list__container__right__item {
+
+.home__list__container>*,
+.home__list__container__right__item {
     flex: 1;
 }
+
 .home__chains__text {
     width: min(450px, 100%) !important;
 }
-.home__list__container__left, .home__list__container__right__item {
+
+.home__list__container__left,
+.home__list__container__right__item {
     border-radius: 16px;
     border: 1px solid white;
     background-size: cover;
@@ -40,11 +50,13 @@
     border: 1px solid white;
     border-image-source: linear-gradient(347.82deg, rgba(255, 255, 255, 0.34) 10%, rgba(255, 255, 255, 0) 20.85%);
 }
+
 .bubbles {
     position: absolute;
     right: -5rem;
     bottom: -5rem;
 }
+
 .circle-filler {
     position: absolute;
     width: 697px;
@@ -54,21 +66,27 @@
     opacity: 0.2;
     filter: blur(150px);
 }
+
 @media (max-width: 768px) {
     .home__hero {
         align-items: flex-start !important;
         padding: 5rem 1rem;
+        height: calc(100vh - 82px);
     }
+
     .home__hero h1 {
         font-size: 3.5rem !important;
     }
+
     .home__hero p {
         font-size: 1.25rem !important;
     }
+
     .home__chains {
         flex-direction: column-reverse;
         gap: 3rem;
     }
+
     .home__list__container {
         flex-direction: column;
     }
