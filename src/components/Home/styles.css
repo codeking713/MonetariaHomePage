@@ -12,6 +12,10 @@
     background-repeat: no-repeat;
 }
 
+.home__hero h1 {
+    font-size: 64px !important;
+}
+
 .home__hero__inner {}
 
 .home__chains img {
