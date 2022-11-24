@@ -8,7 +8,7 @@
     background-image: linear-gradient(180deg, rgba(5, 18, 20, 0) 0%, #051214 120%), url('../../../public/aquapolis.png');
     height: calc(100vh - 82px);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
